@@ -3,8 +3,8 @@ import json
 import os
 
 URL = "bolt://localhost:7687"
-USERNAME = "neo4j"
-PASSWORD = "sifre??41"
+USERNAME = "USERNAME_GIRIN"
+PASSWORD = "SIFRE_GIRIN"
 
 class Renk:
     kirmizi = '\033[31m'
@@ -185,3 +185,4 @@ while True:
         break
     else:
         print(f"{Renk.kirmizi}Yanlış seçim!{Renk.sade}")
+
